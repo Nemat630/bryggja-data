@@ -1,0 +1,31 @@
+[0m16:25:47.428393 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c7e34a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5a4f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5a4c80>]}
+
+
+============================== 16:25:47.441184 | 2a4ebdf4-954a-4113-a1ba-8dc1b08555d6 ==============================
+[0m16:25:47.441184 [info ] [MainThread]: Running with dbt=1.11.12
+[0m16:25:47.442881 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'write_json': 'True', 'fail_fast': 'False', 'static_parser': 'True', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': '/Users/skolan/.dbt', 'warn_error': 'None', 'cache_selected_only': 'False', 'use_colors': 'True', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'empty': 'None', 'send_anonymous_usage_stats': 'True', 'partial_parse': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'debug': 'False', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'invocation_command': 'dbt init bryggja_dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m16:25:47.507526 [info ] [MainThread]: Creating dbt configuration folder at /Users/skolan/.dbt
+[0m16:25:47.511668 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m16:25:47.535748 [info ] [MainThread]: 
+Your new dbt project "bryggja_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:25:47.536960 [info ] [MainThread]: Setting up your profile.
+[0m16:26:08.531549 [info ] [MainThread]: Profile bryggja_dbt written to /Users/skolan/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m16:26:08.585331 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 21.314749, "process_in_blocks": "0", "process_kernel_time": 0.490035, "process_mem_max_rss": "114266112", "process_out_blocks": "0", "process_user_time": 2.827931}
+[0m16:26:08.586167 [debug] [MainThread]: Command `dbt init` succeeded at 16:26:08.585992 after 21.32 seconds
+[0m16:26:08.586721 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d6420f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d643e60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5a4f80>]}
+[0m16:26:08.587305 [debug] [MainThread]: Flushing usage events
+[0m16:26:09.599283 [debug] [MainThread]: An error was encountered while trying to flush usage events

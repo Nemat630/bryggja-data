@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_jobs
+    description: "Cleaned and standardised job listings from Arbetsformedlingen"
+    columns:
+      - name: job_id
+        description: "Unique identifier for each job"
+        tests:
+          - not_null
+          - unique
+      - name: title
+        description: "Job title"
+        tests:
+          - not_null
+      - name: company
+        description: "Company name, cleaned to title case"
+      - name: location
+        description: "Municipality where the job is located"
+      - name: posted_date
+        description: "Date the job was posted"
